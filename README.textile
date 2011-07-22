@@ -1,0 +1,5 @@
+h1. PickupList
+
+Steve came up with the idea of PickupList when he was traveling in an unfamiliar location and wanted to find a game of pick-up ultimate frisbee. So Steve and Ian put their heads together to find a solution, and PickupList was the result.
+
+Visit the "live PickupList web site":http://pickuplist.com/ for more information.

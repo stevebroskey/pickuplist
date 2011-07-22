@@ -1,0 +1,39 @@
+body{font-family:'Droid Sans',sans-serif;background-image:url(images/background.jpg);}body input,body button,body textarea{color:black;font-family:'Droid Sans',sans-serif;}
+body h1{font-size:16pt;}
+body h2{margin-top:1.6em;font-size:14pt;}
+body p{margin-top:1.6em;font-size:11pt;line-height:1.6em;}
+body #top-bar{height:7px;background:url(images/top-bar.png) bottom left repeat-x;}
+body #page{min-width:800px;margin:0 30px;}
+body #header{width:100%;height:52px;padding:24px 0 20px 0;}
+body #title{float:left;margin-left:-3px;font-size:32pt;font-weight:bold;letter-spacing:-3px;text-shadow:white 0 0 3px;}
+body #nav{text-shadow:white 0 0 3px;letter-spacing:-1px;margin:17px 1px 0 0;padding:0;float:right;font-weight:bold;font-size:14pt;text-transform:uppercase;color:#333;letter-spacing:-1px;margin-left:15px;display:none;}body #nav input{text-shadow:#fff 0 0 2px;font-size:14pt;background:transparent;border:0;border-bottom:1px solid #bbb;margin:0 4px;width:180px;}
+body #map{width:100%;max-width:2000px;margin:0;padding:0;}body #map .top{height:10px;background:url(images/map-top-middle.png) top center repeat-x;margin:0 10px;}body #map .top .left{float:left;width:10px;height:10px;background:url(images/map-top-left.png) top left no-repeat;margin-left:-10px;}
+body #map .top .right{float:right;width:10px;height:10px;background:url(images/map-top-right.png) top right no-repeat;margin-right:-10px;}
+body #map .middle{position:relative;height:350px;margin:0 10px;background:#f8f8f8;}body #map .middle .left{float:left;width:10px;height:100%;background:url(images/map-middle-left.png) center left repeat-y;margin-left:-10px;}
+body #map .middle .right{float:right;width:10px;height:100%;background:url(images/map-middle-right.png) center right repeat-y;margin-right:-10px;}
+body #map .bottom{height:34px;}body #map .bottom .left{float:left;width:50%;height:100%;background:url(images/map-bottom-left.png) bottom left no-repeat;}
+body #map .bottom .right{float:right;width:50%;height:100%;background:url(images/map-bottom-right.png) bottom right no-repeat;}
+body #map_canvas{position:absolute;height:100%;width:100%;background-color:#99b3cc;}
+body #content_overlay{position:absolute;height:100%;width:100%;}body #content_overlay .blanket{position:absolute;height:100%;width:100%;background:white;opacity:0.7;}
+body #content_overlay .message{position:relative;top:20%;width:440px;margin:0 auto;}body #content_overlay .message h1{font-size:16pt;margin-bottom:14px;}
+body #content_overlay .message p{font-size:11pt;line-height:1.6em;margin-bottom:14px;}body #content_overlay .message p a{text-decoration:underline;}
+body #content_overlay .message p.share{text-align:center;}body #content_overlay .message p.share a{text-decoration:none;}
+body #content_overlay .message a.continue{display:block;text-decoration:none;font-weight:bold;font-size:12pt;text-align:right;}
+body #footer{height:345px;clear:both;margin:10px 0 0 0;color:#797979;background:url(images/footer-bg.png) top left repeat-x;}body #footer .column{width:50%;margin-bottom:10px;height:278px;float:left;}
+body #footer a{color:#aaa;}body #footer a:hover{color:#a00c14;}
+body #footer p{font-size:12px;line-height:1.6em;color:white;padding:10px 0;margin-top:0;margin-right:20px;}
+body #footer h3{font-size:16px;line-height:.8em;color:white;padding:0;margin:10px 0 5px 0;}
+body #footer-inner{min-width:800px;height:320px;margin:0 30px;padding:20px 0 0 0;background:url(images/footer-bg-inner.png) top center no-repeat;overflow-y:hidden;}
+body #copyright{margin:0;padding:0;text-align:center;clear:both;}body #copyright a{color:#aaa;}body #copyright a:hover{color:#a00c14;}
+body .infowindow{font-size:11pt;width:300px;margin-right:20px;line-height:1.3em;}body .infowindow p{font-size:10pt;margin-top:6px;}
+body .infowindow .added-on{font-size:9pt;margin-top:10px;color:#888;}
+body .infowindow .actions{margin-right:-20px;margin-top:3px;border-top:1px solid #ccc;padding-top:4px;font-size:9pt;}
+body .infowindow textarea{width:292px;font-size:10pt;padding:2px 4px;margin:6px 0 0 0;line-height:1.3em;border:1px solid #888;color:black;}body .infowindow textarea.default{color:#888;}
+body .infowindow input{width:296px;font-size:10pt;margin:3px 0 9px 0;padding:2px;border:1px solid #888;color:black;}body .infowindow input.default{color:#888;}
+body .infowindow button{float:right;width:55px;margin:-1px -3px 0 0;padding:0;}
+body .infowindow .address{font-size:8pt;float:left;width:240px;line-height:1.3em;}
+body .infowindow .error{border:1px solid red;}
+body .infowindow div.page2{display:none;}
+body .hidden{display:none;}
+body #blanket{position:fixed;top:0;right:0;bottom:0;left:0;color:black;opacity:0.5;display:none;}
+body #message{position:fixed;width:400px;height:300px;margin:100px auto 0 auto;background:white;opacity:1;display:none;border:1px solid black;}
