@@ -120,7 +120,7 @@ window_resize = () ->
   $("#keywords").css "width", (if w < 860 then 180 else w - 680) + "px"
 
   h = $(@).height()
-  h_map = (if h - 130 < 460 then 460 else h - 130)
+  h_map = (if h - 113 < 460 then 460 else h - 113)
   $("#map").css "height", "#{h_map}px"
 
 # location field change event handler
