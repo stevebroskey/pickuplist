@@ -1,1 +1,0 @@
-<?php header('Location: /'); /* not implemented yet */ ?>

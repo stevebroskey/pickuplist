@@ -7,5 +7,6 @@ RewriteRule ^confirm/(.*)$      /confirm.php?id=$1         [NC,L]
 RewriteRule ^renew/(.*)/(.*)$   /renew.php?id=$1&code=$2   [NC,L]
 RewriteRule ^delete/(.*)/(.*)$  /delete.php?id=$1&code=$2  [NC,L]
 RewriteRule ^error$             /error.php                 [NC,L]
+
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^(.+)$               /#!/$1                    [NE,L,R]

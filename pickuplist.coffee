@@ -121,10 +121,7 @@ window_resize = () ->
 
   h = $(@).height()
   h_map = (if h - 160 < 460 then 460 else h - 160)
-  $("#map .middle").css "height", "#{h_map}px"
-
-  h_message = $('#content_overlay .message').innerHeight()
-  $("#content_overlay .message").css 'top', ((h_map - h_message) / 2) + 'px'
+  $("#map").css "height", "#{h_map}px"
 
 # location field change event handler
 location_change = () ->
