@@ -2,6 +2,7 @@ TARGET=../web
 JSMIN=pickuplist.min.js pickuplist-map.min.js pickuplist-aux.min.js
 JSDBG=pickuplist.dbg.js pickuplist-map.dbg.js pickuplist-aux.dbg.js
 CSS=screen.css reset.css
+TEMPS=.sass-cache
 HTML=index.html
 
 all: ${JSDBG} ${JSMIN} ${CSS} ${HTML}
@@ -27,7 +28,7 @@ clean:
 	rm -f ${JSMIN}
 	rm -f ${CSS}
 	rm -f ${HTML}
-	rm -rf .sass-cache
+	rm -rf ${TEMPS}
 
 clean_target:
 	rm -rf ${TARGET}/*
