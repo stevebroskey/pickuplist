@@ -27,6 +27,7 @@ clean:
 	rm -f ${JSMIN}
 	rm -f ${CSS}
 	rm -f ${HTML}
+	rm -rf .sass-cache
 
 clean_target:
 	rm -rf ${TARGET}/*
