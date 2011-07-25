@@ -5,10 +5,13 @@ CSS=screen.css reset.css
 TEMPS=.sass-cache
 HTML=index.html
 
-all: ${JSDBG} ${JSMIN} ${CSS} ${HTML}
+all: ${JSDBG} ${JSMIN} ${CSS} ${HTML} config.php
+
+config.php: config.yaml config.mustache
+	mustache $< config.mustache > $@
 
 %.dbg.js: %.coffee
-	coffee -cp $< > $@
+	mustache config.yaml $< | coffee -cps > $@
 
 %.min.js: %.dbg.js
 	closure --warning_level QUIET < $< | uglifyjs -nc > $@
@@ -28,6 +31,7 @@ clean:
 	rm -f ${JSMIN}
 	rm -f ${CSS}
 	rm -f ${HTML}
+	rm -f config.php
 	rm -rf ${TEMPS}
 
 clean_target:

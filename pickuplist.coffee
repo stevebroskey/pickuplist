@@ -3,14 +3,8 @@ window.WebFontConfig =
   google:
     families: [ 'Droid+Sans:400,700:latin' ]
 
-# stuff to keep track of
-map = null
-newgame = null
-displaygame = null
-cached = { }
-
 # constant things
-datasource = "1077209"
+datasource = "{{fusion.table}}"
 def_newgame = "New Activity"
 def_description = "type the description of your activity here; don't forget to include things like schedule and any necessary equipment"
 def_email = "email address"
@@ -247,5 +241,6 @@ $script [
   "http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"
   "http://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"
   "http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.0.6/modernizr.min.js"
+  "http://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.3.0/mustache.min.js"
   "pickuplist-map.min.js"
 ], () -> $(document).ready document_ready

@@ -1,6 +1,7 @@
 # -*- yaml -*-
 #
-# don't load the config.yaml file into the git repo because
-# this file contains login credentials for our databases
-#
 config.yaml
+config.php
+*.html
+*.css
+*.js
